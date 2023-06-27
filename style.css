@@ -1,3 +1,20 @@
+body {
+    font-family: 'Roboto' , sans-serif;
+    color: white;
+}
+
+.between {
+    color: black;
+}
+.hero ,.footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
 .logo img {
     width: 100px;
     height: auto;
@@ -11,4 +28,14 @@
 .smaller {
     width: 250px;
     height: 250px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 13px;
+}
+
+a {
+    color: gret;
 }
