@@ -21,8 +21,8 @@ body {
 }
 
 .small {
-    width: 400px;
-    height: auto;
+    width: 500px;
+    height: 300px;
 }
 
 .smaller {
@@ -57,4 +57,29 @@ a {
     justify-content: center;
     gap : 30px;
     border: #3882F6;
+}
+
+.thumb {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    gap: 40px;
+}
+
+.info-button {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+    margin-bottom: -10px;
+}
+
+.desc {
+    font-size: 18px;
+    color: #E5E7EB;
 }
