@@ -5,6 +5,7 @@ body {
 
 .between {
     color: black;
+    padding-bottom: 100px;
 }
 .hero ,.footer {
     background-color: #1F2937;
@@ -23,11 +24,14 @@ body {
 .small {
     width: 500px;
     height: 300px;
+    border: 3px solid #3882F6;
 }
 
 .smaller {
     width: 130px;
     height: 130px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
 }
 
 ul {
@@ -52,7 +56,7 @@ a {
    text-align: center;
 }
 
-.succes {
+.succes{
     display: flex;
     justify-content: center;
     gap : 30px;
@@ -64,6 +68,7 @@ a {
     justify-content: center;
     padding: 30px;
     gap: 40px;
+    padding-bottom: 80px;
 }
 
 .info-button {
@@ -93,4 +98,19 @@ button {
   border-radius: 5px;
   border: none;
   padding: 10 40px;
+}
+
+
+.subtext {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.man {
+    max-width: 150px;
+}
+
+.text {
+    color: grey;
 }
