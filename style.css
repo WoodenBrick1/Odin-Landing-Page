@@ -26,8 +26,8 @@ body {
 }
 
 .smaller {
-    width: 250px;
-    height: 250px;
+    width: 130px;
+    height: 130px;
 }
 
 ul {
@@ -38,4 +38,23 @@ ul {
 
 a {
     color: gret;
+}
+
+.abraham {
+    background-color: #E5E7EB;
+    font-size: 36px;
+}
+
+.info {
+    font-size: 26px;
+    font-weight: bolder;
+    color: #1f2937;
+   text-align: center;
+}
+
+.succes {
+    display: flex;
+    justify-content: center;
+    gap : 30px;
+    border: #3882F6;
 }
